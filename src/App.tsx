@@ -18,25 +18,25 @@ import { AreaChart, Area, ResponsiveContainer, Tooltip, XAxis, YAxis, CartesianG
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 
 // Utils
-import { smoothScrollTo } from './src/utils/smoothScroll';
+import { smoothScrollTo } from './utils/smoothScroll';
 
 // UI Components
-import BackgroundMesh from './src/components/ui/BackgroundMesh';
-import LiveHeroBackground from './src/components/ui/LiveHeroBackground';
-import SpotlightCard from './src/components/ui/SpotlightCard';
-import RevealSection from './src/components/ui/RevealSection';
+import BackgroundMesh from './components/ui/BackgroundMesh';
+import LiveHeroBackground from './components/ui/LiveHeroBackground';
+import SpotlightCard from './components/ui/SpotlightCard';
+import RevealSection from './components/ui/RevealSection';
 
 // Layout
-import Navbar from './src/components/layout/Navbar';
+import Navbar from './components/layout/Navbar';
 
 // Sections
-import ApplicationForm from './src/components/sections/ApplicationForm';
-import FAQSection from './src/components/sections/FAQSection';
+import ApplicationForm from './components/sections/ApplicationForm';
+import FAQSection from './components/sections/FAQSection';
 
 // Modals
-import CallModal from './src/components/modals/CallModal';
-import PrivacyModal from './src/components/modals/PrivacyModal';
-import TermsModal from './src/components/modals/TermsModal';
+import CallModal from './components/modals/CallModal';
+import PrivacyModal from './components/modals/PrivacyModal';
+import TermsModal from './components/modals/TermsModal';
 
 // Mock Data for Chart
 const chartData = [
