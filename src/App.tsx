@@ -12,7 +12,8 @@ import {
   Check,
   Plus,
   Minus,
-  Phone
+  Phone,
+  X
 } from 'lucide-react';
 import { AreaChart, Area, ResponsiveContainer, Tooltip, XAxis, YAxis, CartesianGrid } from 'recharts';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
